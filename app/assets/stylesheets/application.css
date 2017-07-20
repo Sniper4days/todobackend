@@ -13,17 +13,18 @@
  *= require_tree .
  *= require_self
  */
+body,html{
+    height:100%;
+    width: 100%;
+}
+
+
 h1
     {color: purple;}
 h2
     {color: black;}
 ul
     {list-style-type:none;}
-body {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/53/1e/7f531e8e97a3e68423eff8515a73557d.gif");
-        background-position: center;
-    }
-    
 .Fuchsia {
     color:Fuchsia ;
 }
@@ -32,15 +33,30 @@ body {
 }
 p {
     margin:2cm 4cm 2cm 4cm;
-}
-p {
+
     padding:2cm 4cm 3cm 4cm;
-}
-P {
-    Border: 5px solid white;
-}
+
+
+    Border: 5px solid white;}
+
 .shadow {    
     box-shadow: 10px 10px 5px #888888; 
     
 }
-   
+
+.a {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/7f/53/1e/7f531e8e97a3e68423eff8515a73557d.gif");
+    background-position: center;
+    height: 100%;
+    width:100%;
+}
+
+.white { color: white;}
+.inline { display: inline; }
+
+body {
+    margin-left: -0px;
+}
+ul {
+    margin-top: -7px
+}

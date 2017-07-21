@@ -6,7 +6,7 @@
                      <%=@todo.description%>
                      <%=@todo.pomodoro_estimate%></li>
     </ul margin-top:-7px;>
-    <a class="white inline">edit</a>
-    <a class="white">delete</a>
-    <a href="index.html"class="white">go back</a>
+    <a class="white inline" href="todo/edit/<%=@todo.id %>" Class="button edit-todo-button">Edit</a>
+    <a class="white" href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">delete</a>
+    <a href="/"class="white">go back</a>
 </div>
